@@ -1,34 +1,60 @@
 # LDDAHGS
 Leaf Disease Detection and Health Grading System(AIML)
 
-## **Objective:**
+PROBLEM DOMAIN:
 
-Developed an algorithm using deep learning, Image Processing and Fuzzy Inference system that allows the user to identify a disease caused by a particular micro-organism that is infested on the leaf of a plant and also successfully shows estimated health severity of the leaf based on how much of a leaf is infected.
+Leaf disease detection and health grading system is a domain that involves
+using various technologies to detect plant diseases and grade the health of plants
+based on their visual appearance. This domain is important for the agriculture
+industry to detect plant diseases at an early stage and take necessary measures to
+prevent the spread of the disease and improve crop yield.
 
-[![flow chart](https://user-images.githubusercontent.com/73630123/119841897-d5ffbe00-bf23-11eb-8b50-85d662d42d7a.jpg)](https://youtu.be/N7Jr5pAZFg8)
+POTENTIAL FOR AI IN THE PROBLEM DOMAIN WITH INDUSTRIAL RELEVANCE:
 
-## **Methodology:**
+AI can play a crucial role in this domain by providing accurate and efficient
+disease detection and health grading of plants. With the help of computer vision
+and machine learning techniques, AI can analyse images of plant leaves and
+accurately detect diseases and grade the plant health. This can save time and
+effort for farmers and increase the efficiency of disease detection.
 
-### I. Neural Network Classifier
+STATEMENT OF THE PROBLEM:
 
-The deep learning algorithm studies the different dataset images and classifies into one of the 5 categories: Bacteria, Fungi, Virus, Nematode and Normal Leaf (Not infected at all)
+The problem in this domain is to develop an automated system that can
+accurately detect plant diseases and grade the plant health based on the images
+of the plant leaves. The system should be able to detect a variety of plant
+diseases and provide a grading system that can help farmers take necessary
+actions to prevent the spread of the disease.
 
-![img1](https://user-images.githubusercontent.com/73630123/119844591-3132b000-bf26-11eb-8151-0c4dc690b854.png)
+OBJECTIVES:
 
-After classifying feature extraction of the infected leaf has been done using Digital Image Processing technique.
+1. To develop an automated system that can accurately detect plant diseases and
+grade plant health based on leaf images.
+2. To provide an efficient and accurate disease detection system for farmers to
+prevent disease spread.
+3. To provide a grading system that can help farmers take necessary actions to
+improve the health of plants and increase crop yield.
 
-### II. Image processing
+DATASET DETAILS:
 
-Studied the images in the dataset and understanding the different patterns in which the organisms infect the leaf. Thus, the main objective of the technique of image processing is to extract the infected area of the leaf and isolating the background and the green part of the leaf. This would help us to highlight the only the infected area.
+The dataset used for this problem domain should contain images of plant leaves
+with different diseases and different levels of health. The dataset should be
+diverse enough to cover a wide range of plant diseases and leaf conditions. The
+dataset can be collected from various sources such as field surveys or lab
+experiments.
 
-![img2](https://user-images.githubusercontent.com/73630123/119844877-6ccd7a00-bf26-11eb-94ed-bf3a323f05ee.jpg)
+METHODOLOGY:
 
-### III. Fuzzy Rule Base System
+The methodology for developing a leaf disease detection and health grading
+system involves collecting a diverse dataset, pre-processing the images,
+developing a deep learning model using computer vision and machine learning
+techniques, and testing the model on new images to evaluate its performance.
+The system can be deployed as a web or mobile application to make it
+accessible to farmers.
 
-Finally after the feature extraction , to determine the health severity of the leaf in terms of percentage, a set of rules have been aggregated by using Fuzzy Inference System in MATLAB
+EXPECTED OUTCOME:
 
-![img3](https://user-images.githubusercontent.com/73630123/119845058-95ee0a80-bf26-11eb-93ee-cfed52f258bd.jpg)
-
-## **Result:**
-
-![result discussion img1](https://user-images.githubusercontent.com/73630123/119840931-04c96480-bf23-11eb-957d-14e49c01d3d9.jpg)
+The expected outcome of this project is to develop an accurate and efficient
+system for detecting plant diseases and grading plant health based on leaf
+images. The system should be able to provide a fast and reliable disease
+detection and grading system for farmers to take necessary actions to prevent
+disease spread and improve crop yield.
